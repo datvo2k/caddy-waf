@@ -54,7 +54,7 @@ RUN chown -R caddy:caddy /app
 USER caddy
 
 # Expose HTTP ports (adjust as needed)
-EXPOSE 8080
+EXPOSE 8083
 
 # Run Caddy
 CMD ["caddy", "run", "--config", "/app/Caddyfile"]

@@ -1,9 +1,4 @@
-{
-	auto_https off
-	admin localhost:2019
-}
-
-:8080 {
+:8083 {
 
 	log {
 		output stdout

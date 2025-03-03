@@ -97,7 +97,7 @@ Here's a minimal Caddyfile example to get started:
 ```caddyfile
 {
     auto_https off
-    admin localhost:2019
+    admin localhost:2013
 }
 
 :8080 {
